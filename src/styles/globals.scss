@@ -4,4 +4,28 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --black-95: #1A1D23;
+  --white-05:#F8F8F8;
+  --white-15: #D7D7D7;
+  --white-25: #BBBBBB;
+  --pink-00:#FF57B2;
+}
+
+body {
+  background-color: var(--black-95);
+}
+
+body, input, textarea, select,  button {
+  font-family: 'Inter', sans-serif;
+  color: var(--white-15);
+}
+
+button {
+  cursor: pointer;
+  transition: filter 0.25s;
+
+  &:hover {
+    filter: brightness(0.9)
+  }
+}

@@ -1,0 +1,47 @@
+.post_summary{
+
+  &:hover {
+    cursor: pointer;
+    .title {
+      filter: brightness(0.9);
+    }
+  }
+
+  .title {
+    color: var(--white-05);
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    transition: filter 0.25s;
+  }
+
+  .subtitle {
+    color: var(--white-15);
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: justify;
+  }
+
+  .info_group {
+    margin-top: 1.5rem;
+
+    .info {
+      font-size: 0.875rem;
+      height: 20px;
+      display: inline-flex;
+      align-items: center;
+      color: var(--white-25);
+
+      &:not(:first-of-type) {
+        margin-left: 1.5rem;
+      }
+
+      svg {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,1 +1,11 @@
-// TODO
+@import '../styles/common.module.scss';
+
+.container {
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.post_grid {
+  margin-top: 1rem;
+}

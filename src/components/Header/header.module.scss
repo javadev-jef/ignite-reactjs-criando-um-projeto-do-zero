@@ -1,1 +1,21 @@
-// TODO
+.header {
+  height: 105px;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  max-width: 761px;
+  width: 100%;
+  margin:0 auto;
+}
+
+@media (max-width: 768px) {
+  .header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
